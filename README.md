@@ -16,9 +16,10 @@ Einnig er hægt að finna verkefnið á [HÍ-síðunni minni](https://notendur.h
 ## Hvað er í verkefninu?
 
 Verkefnið inniheldur 14 síður, en einungis ein þeirra er sett upp `index.html`, meðan hinar eru búnar til með samstarfi javascript og `lectures.json`. Það er einungis eitt .css skjal, `styles.css`, en það er búið til úr nokkrum öðrum .scss skjölum sem finna má undir `/src/styles`-möppunni. Það er einnig bara eitt .js, `bundle.js`, sem er búið til úr nokkrum öðrum .js skjölum sem finna má undir `/src/lib`-möppunni.
+
 `styles.css` er búið til með node-sass og `bundle.js` er búið til með rollup og verða til báðar í nýrri möppu sem heitir `/dist`, hvernig á að keyra báðar skipanir er útskýrt í keyrslunni fyrir ofan.
-Einnig er mappa með myndum (`/img`).
-Það eru tvö .html skjöl sem voru notuð til að athuga hvernig .css myndi hegða sér og hvernig `htmlBuilder.js` myndi búa til föllin, `prufaIndex.html` og `prufaFyrirlestur.html`.
+
+Það eru tvö .html skjöl sem voru notuð til að athuga hvernig .css myndi hegða sér og hvernig `htmlBuilder.js` myndi búa til föllin, `prufaIndex.html` og `prufaFyrirlestur.html`. Einnig er mappa með myndum (`/img`).
 
 
 ## Nemendur/Verkefnaskipting
