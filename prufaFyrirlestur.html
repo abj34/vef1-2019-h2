@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="html" lang="is">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hópverkefni 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Mono" rel="stylesheet">
+
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="dist/styles.css">
+
+
+</head>
+
+<body class="lecture-page">
+
+  <header class="header lecture">
+    <div class="content protection">
+      <h3 class="content__class">TEST</h3>
+      <h1 class="content__title">DOM sampler</h1>
+    </div>
+  </header>
+
+  <main class="main lecture_main">
+
+
+    <div class="lect">
+      <div class="lect__content">
+        <div class="lect__video">
+          <iframe class="video_frame" src="https://www.youtube.com/embed/aVS4W7GZSq0"></iframe>
+        </div>
+        <div class="lect__text">
+          <p class="txt">Text paragraph 1</p>
+          <p class="txt">Text paragraph 2</p>
+          <p class="txt">Text paragraph 3</p>
+          <p class="txt">Long text paragraph 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi optio
+            quidem recusandae velit! Ad deserunt totam, repudiandae deleniti consequuntur libero? Nesciunt natus
+            aspernatur repudiandae molestiae quo sequi, similique quas recusandae.</p>
+        </div>
+        <div class="lect__quote">
+          <blockquote class="blockquote cite_following">This is a quote with an atribution</blockquote>
+          <cite class="cite">mister smart</cite>
+        </div>
+        <div class="lect__text">
+          <p class="txt">Text paragraph 4</p>
+        </div>
+        <div class="lect__quote">
+          <blockquote class="blockquote">This is a quote without an atribution</blockquote>
+        </div>
+        <div class="lect__image">
+          <img class="img" src="img/server.jpg" alt="img/server.jpg">
+          <div class="caption">
+            <p class="txt">This is an image with a caption</p>
+          </div>
+        </div>
+        <h1 class="lect__heading">This is an heading - following it is an image without a caption</h1>
+        <div class="lect__image">
+          <img class="img" src="img/server.jpg" alt="img/server.jpg">
+        </div>
+        <ul class="lect__list">
+          <li class="item">List item 1</li>
+          <li class="item">List item 2</li>
+          <li class="item">List item 3</li>
+        </ul>
+        <pre class="lect__code">
+console.log('this is a code block');
+lectCode(data) {
+  const div = el('pre', 'code', data.data);
+  return div;
+}
+        </pre>
+
+
+      </div>
+      <div class="lect__done">
+        <p class="finish">Klára fyrilestur</p>
+        <p class="back">Til baka</p>
+      </div>
+      <div class="lect__done">
+        <p class="finished">✔ Fyrirlestur kláraður</p>
+        <p class="back">Til baka</p>
+      </div>
+    </div>
+
+  </main>
+
+
+
+
+</body>
+
+</html>

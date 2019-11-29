@@ -1,0 +1,30 @@
+@import "config";
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: $fBase;
+
+    .button {
+        justify-content: center;
+        padding-top: $gutterHalf;
+        padding-bottom: $gutterHalf;
+        padding-right: $gutter;
+        padding-left: $gutter;
+        margin: $fBase;
+        margin-bottom: $fBase;
+        font-size: $f24;
+        font-weight: 700;
+        color: $colBlack;
+        cursor: pointer;
+        background-color: $colLightGrey;
+        border: 0;
+        border-radius: 10px;
+    }
+
+    .button_enabled {
+        background-color: $colLightGreen;
+        transition: 0,3s;
+        transition-timing-function: ease-in-out;
+    }
+}

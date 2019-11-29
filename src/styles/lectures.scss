@@ -1,0 +1,150 @@
+@import "config";
+
+.lecture_main {
+    display: flex;
+    margin-right: -($gutter / 2);
+    margin-left: -($gutter / 2);
+
+    @media (max-width: $max-width) {
+        padding-right: $gutter;
+        padding-left: $gutter;
+    }
+}
+
+.lect {
+    width: 100 * 1%;
+    padding-right: $gutterHalf;
+    padding-left: $gutterHalf;
+
+    padding-right: 0;
+    padding-left: 0;
+    overflow: visible;
+
+
+    &__video {
+        margin-top: $f32;
+        margin-bottom: $f32;
+        
+        position: relative;
+        height: 0;
+        padding-top: 25px;
+        padding-bottom: 56.25%;
+    
+        .video_frame {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+    &__text {
+        margin-top: $f32;
+        margin-bottom: $f32;
+    
+        font-family: $font-main;
+        font-size: $fBase;
+    
+        .txt {
+            margin-top: $f32;
+            margin-bottom: $f32;
+        }
+    }
+    
+    &__image {
+        margin-top: $f32;
+        margin-bottom: $f32;
+    
+        .img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .caption {
+            font-style: italic;
+        }
+    }
+    
+    &__quote {
+        margin-top: $f32;
+        margin-bottom: $f32;
+    
+        padding-top: $fBase;
+        padding-bottom: $fBase;
+        margin-right: -$gutter;
+        margin-left: -$gutter;
+        font-family: $font-main;
+        background-color: $colLightGrey;
+    
+        .blockquote {
+            margin-right: $gutter;
+            margin-left: $gutter;
+        
+            &.cite_following {
+                padding-bottom: $fBase;
+            }
+        }
+    
+        .cite {
+            margin-right: $gutter;
+            margin-left: $gutter;
+        }
+    }
+    
+    &__code {
+        margin-top: $f32;
+        margin-bottom: $f32;
+        font-family: $font-heading;
+    }
+    
+    &__list {
+        margin-top: $f32;
+        margin-bottom: $f32;
+    
+        font-family: $font-main;
+    
+        .item {
+            margin-top: $fBase;
+            margin-bottom: $fBase;
+        }
+    }
+    
+    &__heading {
+        margin-top: $f32;
+        margin-bottom: $f32;
+    
+        font-family: $font-heading;
+    }
+    
+    &__done {
+        margin-top: $f32*2;
+        margin-bottom: $f32*2;
+    
+        font-family: $font-heading;
+        text-align: center;
+    
+        .finish {
+            margin-top: $f32;
+            margin-bottom: $f32;
+        
+            cursor: pointer;
+        }
+    
+        .finished {
+            margin-top: $f32;
+            margin-bottom: $f32;
+        
+            color: $colLightGreen;
+            cursor: pointer;
+        }
+    
+        .back {
+            margin-top: $f32;
+            margin-bottom: $f32;
+        
+            margin: 20px;
+            cursor: pointer;
+        }
+    }
+}

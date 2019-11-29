@@ -1,0 +1,33 @@
+@import "config";
+
+.header {
+    height: $f48*6;
+    font-family: $font-heading;
+    text-align: center;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &.lecture {
+        background-image: url("../img/code.jpg");
+    }
+
+    .protection {
+        z-index: 1;
+        background-color: $colDarkGrey;
+    }
+
+    .content {
+        padding-top: $f48*2;
+        padding-bottom: $f48*3;
+
+        &__class {
+            font-size: $fBase;
+        }
+
+        &__title {
+            font-family: $font-heading;
+            font-size: $f48;
+        }
+    }
+}

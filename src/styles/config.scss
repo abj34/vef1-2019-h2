@@ -1,7 +1,30 @@
 $max-width: 1200px;
-$gutter: 20px;
+$width-base: 500px;
+$width-mid: 700px;
 
-div {
-  villa-fjarlægðu-mig;
-  stylelint-ætti-að-kvarta;
-}
+// gutter
+$gutter: 20px;
+$gutterHalf: $gutter/2;
+$gutterDouble: $gutter*2;
+
+// font size
+$fBase: 16px;
+$f24: 24px;
+$f32: 32px;
+$f48: 48px;
+
+// font
+$font-main: "Lora", "Times New Roman", serif;
+$font-heading: "Roboto Mono", "Courier New", monospace;
+
+// color
+$colBlack: #000;
+$colDarkGrey: #999;
+$colMidGrey: #aaa;
+$colLightGrey: #ccc;
+$colLightGreen: #2d2;
+$colDarkGreen: #1a1;
+$colYellow: #fcffd2;
+$colPink: #cc9694;
+
+$transition: 300ms ease-in-out;
